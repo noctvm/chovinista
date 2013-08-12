@@ -1,0 +1,26 @@
+background(0,0,0);
+size(600,600);
+stroke(255);
+strokeWeight(0);//permite unir los bloques de color
+fill(0,0,255);//color azul de la bandera
+rect(20,20,200,200);//recuadro blanco
+fill(255,255,255);//color blanco
+rect(220,20,350,200);//recudro rojo
+fill(255,0,0);//color rojo de rectangulo
+rect(20,220,550,200);
+translate(120,120);//posicion de la estrella
+fill(255);//color de la entrella
+stroke(255);//color de l alinea de la estrella
+strokeWeight(2);//espesor de la linea
+beginShape();//funcion para crear figura a partir de shapes.
+  vertex(0, -50);
+  vertex(14, -20);
+  vertex(47, -15);
+  vertex(23, 7);
+  vertex(29, 40);
+  vertex(0, 25);
+  vertex(-29, 40);
+  vertex(-23, 7);
+  vertex(-47, -15);
+  vertex(-14, -20);
+  endShape(CLOSE);//funcion que determina el fin de la figura estrella
